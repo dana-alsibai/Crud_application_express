@@ -34,4 +34,5 @@ route.get('/api/users', controller.find)
 route.put('/api/users/:id', controller.update)
 
 route.delete('/api/users/:id', controller.delete)
+
 module.exports = route
